@@ -2,14 +2,14 @@
 __pycache__/
 *.py[cod]
 .venv/
+.env
 
 # Downloaded cache data
 /data/raw/openmeteo/
 /data/raw/yahoo_ttf.csv
 /data/raw/egsi_history.csv
 /data/raw/egsi_old_energy_map.csv
+/data/raw/gie/
 
 # Generated outputs
-/data/processed/ttf_egsi_daily.csv
-/data/processed/weather_by_country_long.csv
-/data/processed/weather_by_country_wide.csv
+/data/processed/

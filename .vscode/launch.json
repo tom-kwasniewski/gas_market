@@ -1,0 +1,14 @@
+   {
+     "version": "0.2.0",
+     "configurations": [
+       {
+         "name": "GIE download",
+         "type": "debugpy",
+         "request": "launch",
+         "program": "${workspaceFolder}/02_download_agsi_alsi_gie.py",
+         "args": ["--start", "2021-10-01"],
+         "envFile": "${workspaceFolder}/.env",
+         "console": "integratedTerminal"
+       }
+     ]
+   }
